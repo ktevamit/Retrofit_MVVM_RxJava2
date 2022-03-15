@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 
 class MovieService {
-    private val BASE_URL = "https://appfree2u.com/app/hanung/json/api/"
+    private val BASE_URL = ""
 
     private val  api = Retrofit.Builder()
         .baseUrl(BASE_URL)
